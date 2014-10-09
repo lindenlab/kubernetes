@@ -387,7 +387,7 @@ func (kl *Kubelet) killContainerByID(ID, name string) error {
 
 const (
 	networkContainerName  = "net"
-	networkContainerImage = "kubernetes/pause:latest"
+	networkContainerImage = "lindenlab.com/kubernetes/pause:latest"
 )
 
 // createNetworkContainer starts the network container for a pod. Returns the docker container ID of the newly created container.
